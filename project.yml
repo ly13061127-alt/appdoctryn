@@ -1,0 +1,17 @@
+name: AppDocTruyen
+options:
+  bundleIdPrefix: com.doctruyen
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  AppDocTruyen:
+    type: application
+    platform: iOS
+    sources:
+      - path: App
+    info:
+      path: App/Info.plist
+      properties:
+        CFBundleDisplayName: Đọc Truyện
+        UIBackgroundModes:
+          - audio
